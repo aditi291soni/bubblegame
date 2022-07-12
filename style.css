@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 7, 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#game {
+    overflow: hidden;
+    height: 95%;
+    border-radius: 30px;
+    width: calc(100% - 280px);
+    background-image: linear-gradient(white, rgb(158, 145, 147));
+    background-color: rgb(130, 24, 24);
+}
+
+#nav {
+    justify-content: space-around;
+    display: flex;
+    height: 10%;
+    background-color: rgb(158, 145, 158);
+    width: 100%;
+
+}
+
+#timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+}
+
+#time {
+    flex-wrap: wrap;
+    height: 50%;
+    border-radius: 20px;
+    width: 15%;
+    background-color: rgb(252, 251, 253);
+    margin: 20px;
+    display: flex;
+    font-size: 23px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#clicker {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+}
+
+#click {
+    flex-wrap: wrap;
+    height: 50%;
+    border-radius: 20px;
+    width: 15%;
+    background-color: white;
+
+    margin: 20px;
+    display: flex;
+    font-size: 23px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#scorer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+}
+
+#score {
+    flex-wrap: wrap;
+    height: 50%;
+    border-radius: 20px;
+    width: 15%;
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    font-size: 23px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#content {
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 88%;
+    width: 100%;
+    padding: 12px 10px 15px 10px;
+}
+
+#circle {
+
+    margin: 6px;
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(162, 11, 162), rgb(41, 1, 41));
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(166, 0, 255, 0.388);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    display: none;
+}
+
+#answer {
+    height: 35%;
+    width: 35%;
+    background-color: #FFE6E6;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    padding-top: 25px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+#blnt {
+    font-size: 25px;
+    position: relative;
+    bottom: -16%;
+    font-weight: 200;
+}
+
+#remove {
+
+    font-size: 25px;
+    position: relative;
+    font-weight: 200;
+    bottom: -11%;
+}
+
+#rescore {
+
+    font-size: 25px;
+    position: relative;
+    font-weight: 200;
+    bottom: -6%;
+}
+
+button {
+    height: 50px;
+    width: 15%;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(89, 151, 89);
+    position: relative;
+    bottom: -25%;
+}

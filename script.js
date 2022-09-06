@@ -14,7 +14,7 @@ var score = 0;
 
 function bubbles() {
     var temp = ``;
-    for (i = 0; i <= 135; i++) {
+    for (i = 0; i <= 77; i++) {
 
         temp += `<div id="circle">
        <h3>${Math.floor(Math.random() * 50)}<h3>
